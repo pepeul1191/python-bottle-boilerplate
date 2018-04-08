@@ -2,3 +2,4 @@
 .DS_Store
 Gemfile.lock
 .~lock.data.ods#
+static/bower_components
