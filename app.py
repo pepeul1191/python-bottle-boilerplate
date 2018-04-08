@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from bottle import Bottle, run, HTTPResponse, static_file, hook
 from config.middleware import headers
-from views.departamento import departamento_view
+from views.estacion import estacion_view
 
 app = Bottle()
 
@@ -26,6 +26,6 @@ def send_static(filename):
   return static_file(filename, root='./static/')
 
 if __name__ == '__main__':
-  app.mount('/departamento', departamento_view)
+  app.mount('/estacion', estacion_view)
   #app.run(host='localhost', port=3025, debug=True, reloader=True)
   app.run(host='localhost', port=3025, debug=True)
