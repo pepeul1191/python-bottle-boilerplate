@@ -1,4 +1,4 @@
-## Boilerplate Flask Python
+## Boilerplate Bottle Python
 
 Requisitos de software previamente instalado:
 
